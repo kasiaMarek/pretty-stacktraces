@@ -1,15 +1,15 @@
 java.lang.RuntimeException: NestedLambdas
-     at extension method ! in src/test/scala/org/virtuslab/stacktraces/tests/NestedLambdasTests.scala:12 
-     at lambda (String) => Int of some outer lambda in src/test/scala/org/virtuslab/stacktraces/tests/NestedLambdasTests.scala:23 
-     at method map in scala/collection/immutable/List.scala:246 
-     at lambda (Boolean) => IterableOnce[Int] of some outer lambda in src/test/scala/org/virtuslab/stacktraces/tests/NestedLambdasTests.scala:23 
-     at method flatMap in scala/collection/immutable/List.scala:293 
-     at lambda (Int) => List[Int] of some outer lambda in src/test/scala/org/virtuslab/stacktraces/tests/NestedLambdasTests.scala:24 
-     at method map in scala/collection/immutable/List.scala:246 
-     at lambda (Int) => IterableOnce[List[Int]] of x in src/test/scala/org/virtuslab/stacktraces/tests/NestedLambdasTests.scala:25 
-     at method strictOptimizedFlatMap in scala/collection/StrictOptimizedIterableOps.scala:118 
-     at method flatMap in scala/collection/StrictOptimizedIterableOps.scala:105 
-     at method <init> in scala/collection/immutable/Range.scala:59 
-     at lambda () => Unit of test in src/test/scala/org/virtuslab/stacktraces/tests/NestedLambdasTests.scala:25 
-     at method executeTest in src/test/scala/org/virtuslab/stacktraces/util/TestExecutor.scala:27 
-     at method <init> in src/test/scala/org/virtuslab/stacktraces/tests/NestedLambdasTests.scala:17
+    at extension method ! in src/test/scala/org/virtuslab/stacktraces/tests/NestedLambdasTests.scala:12 
+    at lambda (String) => Int of some outer lambda in src/test/scala/org/virtuslab/stacktraces/tests/NestedLambdasTests.scala:23 
+    at method map in scala/collection/immutable/List.scala:246 
+    at lambda (Boolean) => IterableOnce[Int] of some outer lambda in src/test/scala/org/virtuslab/stacktraces/tests/NestedLambdasTests.scala:23 
+    at method flatMap in scala/collection/immutable/List.scala:293 
+    at lambda (Int) => List[Int] of some outer lambda in src/test/scala/org/virtuslab/stacktraces/tests/NestedLambdasTests.scala:24 
+    at method map in scala/collection/immutable/List.scala:246 
+    at lambda (Int) => IterableOnce[List[Int]] of x in src/test/scala/org/virtuslab/stacktraces/tests/NestedLambdasTests.scala:25 
+    at method strictOptimizedFlatMap in scala/collection/StrictOptimizedIterableOps.scala:118 
+    at method flatMap in scala/collection/StrictOptimizedIterableOps.scala:105 
+    at method <init> in scala/collection/immutable/Range.scala:59 
+    at lambda () => Unit of test in src/test/scala/org/virtuslab/stacktraces/tests/NestedLambdasTests.scala:25 
+    at method executeTest in src/test/scala/org/virtuslab/stacktraces/util/TestExecutor.scala:27 
+    at method <init> in src/test/scala/org/virtuslab/stacktraces/tests/NestedLambdasTests.scala:17

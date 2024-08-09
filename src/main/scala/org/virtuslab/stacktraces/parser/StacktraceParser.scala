@@ -65,7 +65,7 @@ object StacktraceParser:
             Right(ste)
         case _ =>
           val msg = "ERROR: Couldn't match stacktrace to regex\n" +
-            s"Originial stack trace line: $line\n"
+            s"Original stack trace line: $line\n"
           Left(msg)
     }
     if errors.nonEmpty then

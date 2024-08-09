@@ -5,7 +5,7 @@ import org.virtuslab.stacktraces.model._
 import scala.annotation.tailrec
 import scala.util.chaining._
 
-object StacktracesCompresser:
+object StacktracesCompressor:
   def compressStackTrace(st: List[PrettyStackTraceElement]): List[(Int, List[PrettyStackTraceElement])] =
     goCompress(st)
       .pipe(concat)

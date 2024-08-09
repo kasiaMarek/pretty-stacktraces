@@ -9,7 +9,7 @@ case class PrettyException(original: Throwable, prettyStackTrace: List[(Int, Lis
 enum ElementType(val name: String):
   case Method extends ElementType("method")
   case ExtensionMethod extends ElementType("extension method")
-  case Lambda(val tpe: String, parent: String) extends ElementType("labmda")
+  case Lambda(val tpe: String, parent: String) extends ElementType("lambda")
 
 case class PrettyStackTraceElement(
   original: StackTraceElement,

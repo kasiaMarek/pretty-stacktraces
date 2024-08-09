@@ -41,6 +41,6 @@ class Benchmarks:
         }
       }
     catch
-      case e: Exception =>
-        val prettyStackTrace = convertToPrettyStackTraceWithStdlib(e)
+      case e: Exception => ???
+        // val prettyStackTrace = convertToPrettyStackTraceWithStdlib(e)
         // PrettyExceptionPrinter.printStacktrace(prettyStackTrace)

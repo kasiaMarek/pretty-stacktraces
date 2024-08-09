@@ -25,7 +25,7 @@ ThisBuild / parallelExecution := false
 
 Global / excludeLintKeys += ThisBuild / organization
 
-val scala3Version = "3.1.3-RC2"
+val scala3Version = "3.4.0"
 
 lazy val root = project
   .in(file("."))
@@ -35,6 +35,10 @@ lazy val root = project
     name := "pretty-stacktraces",
 
     scalaVersion := scala3Version,
-    libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test",
     libraryDependencies += "org.scala-lang" %% "scala3-tasty-inspector" % scalaVersion.value,
+    libraryDependencies += "ch.epfl.scala" %% "tasty-query" % "1.3.0",
+    libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % Test,
+    libraryDependencies += "io.get-coursier" % "interface" % "1.0.19" % Test,
+    Test / fork := true,
+    outputStrategy := Some(StdoutOutput)
   )

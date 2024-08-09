@@ -1,8 +1,8 @@
 java.lang.IllegalStateException: doSthAInlined
-     at method doSthAInlined in src/test/scala/org/virtuslab/stacktraces/tests/InlineTests.scala:12 
-     at method <init> in src/test/scala/org/virtuslab/stacktraces/tests/InlineTests.scala:17 
-     at method doSthA in src/test/scala/org/virtuslab/stacktraces/tests/InlineTests.scala:11 
-     at method <init> in src/test/scala/org/virtuslab/stacktraces/tests/InlineTests.scala:17 
-     at lambda () => Unit of test in src/test/scala/org/virtuslab/stacktraces/tests/InlineTests.scala:26 
-     at method executeTest in src/test/scala/org/virtuslab/stacktraces/util/TestExecutor.scala:27 
-     at method <init> in src/test/scala/org/virtuslab/stacktraces/tests/InlineTests.scala:25
+    at method doSthAInlined in src/test/scala/org/virtuslab/stacktraces/tests/InlineTests.scala:12 
+    at method <init> in src/test/scala/org/virtuslab/stacktraces/tests/InlineTests.scala:17 
+    at method doSthA in src/test/scala/org/virtuslab/stacktraces/tests/InlineTests.scala:11 
+    at method <init> in src/test/scala/org/virtuslab/stacktraces/tests/InlineTests.scala:17 
+    at lambda () => Unit of test in src/test/scala/org/virtuslab/stacktraces/tests/InlineTests.scala:26 
+    at method executeTest in src/test/scala/org/virtuslab/stacktraces/util/TestExecutor.scala:30 
+    at method <init> in src/test/scala/org/virtuslab/stacktraces/tests/InlineTests.scala:25 
